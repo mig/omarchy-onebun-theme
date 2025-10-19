@@ -1,0 +1,72 @@
+# Onebun theme for Alacritty
+#
+# Instructions
+# https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd
+
+[colors.primary]
+
+background = "#282c34"
+foreground = "#eeffe0"
+bright_foreground = "#eeffe0"
+
+[colors.cursor]
+
+text = "#282c34"
+cursor = "#eeffe0"
+
+[colors.vi_mode_cursor]
+
+text = "CellBackground"
+cursor = "CellForeground"
+
+[colors.selection]
+
+text = "CellForeground"
+background = "#3f444a"
+
+[colors.normal]
+
+black = "#21242b"
+red = "#FA6161"
+green = "#beff33"
+yellow = "#deff99"
+blue = "#69ffea"
+magenta = "#FF6694"
+cyan = "#69ffea"
+white = "#eeffe0"
+
+[colors.bright]
+
+black = "#5B6268"
+red = "#FA6161"
+green = "#beff33"
+yellow = "#deff99"
+blue = "#69ffea"
+magenta = "#FF9B9E"
+cyan = "#69ffea"
+white = "#eeffe0"
+
+[colors.search.matches]
+
+foreground = "#282c34"
+background = "#beff33"
+
+[colors.search.focused_match]
+
+foreground = "#282c34"
+background = "#FA9861"
+
+[colors.footer_bar]
+
+background = "#282c34"
+foreground = "#eeffe0"
+
+[colors.hints.start]
+
+foreground = "#282c34"
+background = "#deff99"
+
+[colors.hints.end]
+
+foreground = "#deff99"
+background = "#282c34"
